@@ -4,7 +4,7 @@
 <body>
     <h1> File Upload Functionality</h1>
     <form action="upload.php" method="post" enctype="multipart/form-data">
-        Select image to upload:
+        <p>Select image to upload:</p>
         <input type="file" name="fileToUpload" id="fileToUpload">
         <hr>
         <input type="submit" value="Upload Image" name="submit">
